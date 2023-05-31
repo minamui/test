@@ -1,0 +1,268 @@
+@charset 'utf8';
+
+"/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}"
+
+/*--------------------------------------------*/
+
+
+body {
+ margin:0;
+ padding:0;
+}
+
+body { /*背景色*/
+ background-color:#DDDDDD;
+}
+
+.manubar {
+ position: relative;
+}
+
+.manubar img { /*縮小しても切れない*/
+ width: 100%;
+}
+
+.manubar1 {
+ position: absolute;
+ color: #000;
+  top: 44%;
+  left: 47.5%;
+}
+
+.menubar1 {  /*メニューバー猫1*/
+ position: absolute;
+ top: 450px;
+ left: 380px;
+}
+.menubar2 {  /*メニューバー猫2*/
+ position: absolute;
+ top: 450px;
+ left: 200px;
+}
+.menubar3 {  /*メニューバー猫3*/
+ position: absolute;
+ top: 450px;
+ left: 30px;
+}
+.menubar4 {  /*メニューバー猫4*/
+ position: absolute;
+ top: 450px;
+ left: 1050px;
+}
+.menubar5 {  /*メニューバー猫5*/
+ position: absolute;
+ top: 450px;
+ left: 1230px;
+}
+.menubar6 {  /*メニューバー猫6*/
+ position: absolute;
+ top: 450px;
+ left: 1420px;
+}
+
+
+.annai {
+ text-align: center;
+}
+ .annai1 {
+ display: inline-block;
+ text-align: center;
+ letter-spacing: 2px;  /*文字間*/
+ line-height: 1.5;  /*文字行間*/
+ color: white;
+ padding: 1em 1em;
+ margin: 2em 0;
+ background: #A9A9A9;
+ width: 500px;
+ height: 140px;
+}
+
+
+.nyuuryoku {
+ text-align: center;
+}
+
+.nyuuryoku1 {  /*----ご来店日----*/
+ display: inline-block;
+ text-align: center;
+ letter-spacing: 2px;  /*文字間*/
+ line-height: 1.5;  /*文字行間*/
+ color: white;
+ padding: 1em 1em;
+ margin: 0.5em 0;
+ background: #A9A9A9;
+ width: 500px;
+ height: 500px;
+}
+
+
+.modoru {
+  position: absolute;
+  top: 1005px;
+  left: 900px;
+}
+
+
+
+#page_top{  /*-------トップページボタン-------*/
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #fc7e98; /*ピンク色*/
+  opacity: 0.8;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a:hover {  /*マウスをおくと色が変わる*/
+  color: #fff; /*文字色*/
+  background: #ff9caf; /*薄ピンク*/
+}
+#page_top a {
+ border-radius: 50%;
+}
+
+
+.manubar {
+ position: relative;
+}
+
+.manubar img { /*縮小しても切れない*/
+ width: 100%;
+}
+
